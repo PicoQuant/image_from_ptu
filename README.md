@@ -4,7 +4,6 @@
 
 **Organization**: PicoQuant GmbH, Berlin, Germany 
 
-Version: 2025.0.1
 
 
 # Summary
