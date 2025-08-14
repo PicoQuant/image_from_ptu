@@ -1,6 +1,3 @@
 numpy>=1.22
 matplotlib>=3.5
 ptufile>=0.1.0  # Provides PtuFile for PTU file handling
-
-# Note: The 'ptufile' library (providing PtuFile) must be installed separately
-# as its installation method may vary (e.g., pip install ptufile if available).
