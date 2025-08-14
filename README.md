@@ -62,7 +62,7 @@ pip install numpy matplotlib ptufile
 
 ## Usage
 
-1. Place or reference your PTU file (e.g. RawImage.ptu). You can use https://nc.picoquant.com/index.php/s/DqQcgGGc7gbLbZ6 for example.
+1. Place or reference your PTU file (e.g. RawImage.ptu). You can use https://nc.picoquant.com/index.php/s/DqQcgGGc7gbLbZ6 [^1] for example.
 2. Open plot_ptu_channel_windows.py and adjust:
    - filename: path to the PTU file.
    - N_WINDOWS: number of evenly spaced dtime windows.
@@ -72,6 +72,8 @@ pip install numpy matplotlib ptufile
 ```bash
 python plot_ptu_channel_windows.py
 ```
+
+[^1] GUVs mit 2 Lipid-bindenden Fluorophore: Liz-Rhodamine PE (0.005 mol%) and Atto488-DOPE - data courtesy of Viktorija Glembockyte.
 
 ## Output
 
