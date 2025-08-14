@@ -1,8 +1,8 @@
 # PTU FLIM Channel/Window Plotter
 
-Author: Steffen Ruettinger 
+**Author**: Steffen Ruettinger 
 
-Organization: PicoQuant GmbH, Berlin, Germany 
+**Organization**: PicoQuant GmbH, Berlin, Germany 
 
 Version: 2025.0.1
 
@@ -22,11 +22,11 @@ Script: plot_ptu_channel_windows.py
 This repository contains experimental Python code originally developed for internal research purposes.  
  By using this code, you acknowledge and agree to the following:
 
-1. No Warranty – Provided “as is”, without express or implied warranties (including merchantability, fitness for a particular purpose, or non-infringement). Use at your own risk.
-2. Experimental Nature – Not fully tested, optimized, or production-ready. Intended for developers comfortable working with experimental software.
-3. Limited Support – No guarantee of active maintenance or timely responses to issues, bugs, or pull requests.
-4. Liability – The authors accept no responsibility for any loss or damage caused by the use of this code. You are responsible for ensuring it meets your needs and complies with applicable laws.
-5. Contributions – Contributions are welcome. All submissions will be subject to the same license and disclaimers as the original project.
+1. **No Warranty** – Provided “as is”, without express or implied warranties (including merchantability, fitness for a particular purpose, or non-infringement). Use at your own risk.
+2. **Experimental Nature** – Not fully tested, optimized, or production-ready. Intended for developers comfortable working with experimental software.
+3. **Limited Support** – No guarantee of active maintenance or timely responses to issues, bugs, or pull requests.
+4. **Liability** – The authors accept no responsibility for any loss or damage caused by the use of this code. You are responsible for ensuring it meets your needs and complies with applicable laws.
+5. **Contributions** – Contributions are welcome. All submissions will be subject to the same license and disclaimers as the original project.
 
 ## Features
 
@@ -93,8 +93,11 @@ python plot_ptu_channel_windows.py
 
 ## Contributing
 
-Issues and pull requests are welcome. Please include a short description, steps to reproduce (if applicable), and environment details.
+Issues and pull requests are welcome. Please include:
 
-## License
+A short description of the issue or change
 
-Specify your preferred license (e.g., MIT, Apache-2.0). If you want, I can add a LICENSE file for you.
+Steps to reproduce (if applicable)
+
+Environment details (Python version, OS, dependencies)
+
