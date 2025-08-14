@@ -1,3 +1,21 @@
+"""PTU FLIM Channel/Window Plotter
+
+Quickly visualize which FLIM detector channels were active in a PicoQuant PTU file and explore
+simple delay-time (dtime) windows. The script:
+
+Computes a log-scale histogram of counts (summed over channels) and saves ptu_histogram_log.png.
+Splits the histogram range into N evenly spaced windows (N_WINDOWS).
+For each window and channel, integrates frames and dtime-bins to produce 2D images and
+saves a grid figure channels_overview_grid.png.
+
+Configuration knobs inside this file:
+filename: path to the PTU file (e.g., "FLIM_YYYYMMDD-HHMMSS/RawImage.ptu").
+N_WINDOWS: number of evenly spaced dtime windows.
+channel_ids: list of detector channel indices to visualize.
+
+Requires: numpy, matplotlib, and a ptufile module providing PtuFile.
+"""
+
 import matplotlib.pyplot as plt
 from ptufile import PtuFile
 import numpy as np
