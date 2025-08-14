@@ -73,7 +73,7 @@ pip install numpy matplotlib ptufile
 python plot_ptu_channel_windows.py
 ```
 
-[^1]: GUVs with 2 Lipid-bindinding Fluorophores: Liz-Rhodamine PE and Atto488-DOPE - data courtesy of Viktorija Glembockyte.
+[^1]: GUVs with 2 Lipid-bindinding Fluorophores: Liz-Rhodamine PE and Atto488-DOPE - data courtesy of Viktorija Glembockyte (https://www.mr.mpg.de/14599619/single-molecule-sensing)
 
 ## Output
 
