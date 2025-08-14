@@ -6,7 +6,6 @@
 
 Version: 2025.0.1
 
-Python package to plot read and plot PTU files. 
 
 # Summary
 
@@ -30,7 +29,7 @@ This repository contains experimental Python code originally developed for inter
 
 ## Features
 
-- Load a PTU file via a PtuFile interface.
+- Load a PTU file via PtuFile (https://github.com/cgohlke/ptufile).
 - Compute simple, evenly spaced dtime windows (configurable count).
 - Sum frames and dtime-bins into a 2D image for each channel and window.
 - Save publication-ready PNGs.
@@ -40,7 +39,7 @@ This repository contains experimental Python code originally developed for inter
 - Python 3.9+ (tested versions may vary)
 - numpy
 - matplotlib
-- ptufile (provides PtuFile for PTU file handling)
+- ptufile (provides PtuFile for PTU file handling) - https://github.com/cgohlke/ptufile
 
 ## Installation
 
@@ -84,20 +83,4 @@ python plot_ptu_channel_windows.py
 
 - Windowing: compute_windows_from_hist() currently splits the histogram range into N_WINDOWS equal-width windows. You can replace this with peak-based window detection if desired.
 - Performance: The script decodes only the requested dtime window and integrates frames to keep memory usage manageable. Logging provides timing for decode and reduction steps.
-
-## Troubleshooting
-
-- Import error for ptufile: Ensure you've installed all dependencies with pip install -r requirements.txt.
-- No channels or unexpected shapes: The script logs ptu.shape, frames, channels, and bins to help verify file contents.
-- Large files: Reduce N_WINDOWS, subset channel_ids, or run on a machine with more RAM.
-
-## Contributing
-
-Issues and pull requests are welcome. Please include:
-
-A short description of the issue or change
-
-Steps to reproduce (if applicable)
-
-Environment details (Python version, OS, dependencies)
 
