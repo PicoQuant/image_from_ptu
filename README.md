@@ -62,7 +62,7 @@ pip install numpy matplotlib ptufile
 
 ## Usage
 
-1. Place or reference your PTU file (e.g., FLIM_20250715-170852/RawImage.ptu).
+1. Place or reference your PTU file (e.g. RawImage.ptu). You can use https://nc.picoquant.com/index.php/s/DqQcgGGc7gbLbZ6 for example.
 2. Open plot_ptu_channel_windows.py and adjust:
    - filename: path to the PTU file.
    - N_WINDOWS: number of evenly spaced dtime windows.
